@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class mainAplication {
+public class mainApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(mainAplication.class, args);
+		SpringApplication.run(mainApplication.class, args);
 	}
 
 }

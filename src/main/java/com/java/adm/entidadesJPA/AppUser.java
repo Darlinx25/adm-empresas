@@ -21,7 +21,7 @@ public class AppUser {
 
     private String password;
 
-    
+
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "user_id")

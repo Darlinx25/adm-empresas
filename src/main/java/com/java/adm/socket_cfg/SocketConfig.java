@@ -5,8 +5,8 @@ import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.config.annotation.WebSocketConfigurer;
 import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry;
 
-@Configuration
-@EnableWebSocket
+//@Configuration
+//@EnableWebSocket  LOS SOCKETS TEMPORALMENTE NO LOS USO, SI A FUTURO REQUIERO TIEMPO REAL LOS RETOMO
 public class SocketConfig implements WebSocketConfigurer {
 
     @Override
