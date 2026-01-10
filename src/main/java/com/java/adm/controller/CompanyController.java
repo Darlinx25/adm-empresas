@@ -4,18 +4,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/home")
-public class HomeController {
+@RequestMapping("/empresas")
+public class CompanyController {
 
     @GetMapping("")
-    public String home() {
-        return "home";
+    public String empresas() {
+        return "empresas";
     }
-    
-    @GetMapping("/index")
-    public String index() {
-        return "index";
-    }
-    
-    
+
 }
