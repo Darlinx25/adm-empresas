@@ -1,4 +1,4 @@
-package com.java.adm.entidadesJPA;
+package com.java.adm.logic.classes;
 
 import jakarta.persistence.*;
 import lombok.Getter;

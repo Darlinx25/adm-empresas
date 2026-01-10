@@ -1,4 +1,4 @@
-package com.java.adm.entidadesJPA;
+package com.java.adm.logic.classes;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -25,6 +25,7 @@ public class Client {
 
     public Client(String name){
         this.name = name;
+        this.state = true;
     }
 
     public void addCompany(Company company) {
