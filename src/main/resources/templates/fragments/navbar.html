@@ -8,6 +8,7 @@
     <div class="container px-5">
 
         <a class="navbar-brand" th:href="@{/home}">ADM</a>
+        <a class="navbar-brand" href="/home/iniciar-sesion">Iniciar Sesion</a>
 
         <button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse"
@@ -39,6 +40,11 @@
                        th:classappend="${current == 'empresas'} ? ' active'"
                        th:href="@{/empresas}">
                         Empresas
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/home/cerrar-sesion">
+                        Cerrar Sesion
                     </a>
                 </li>
 

@@ -17,5 +17,11 @@ public class HomeWebController {
         return "index";
     }
     
+    @GetMapping("/iniciar-sesion")
+    public String iniciar_secion() {
+        return "iniciarSesion";
+    }
+    
+    
     
 }
